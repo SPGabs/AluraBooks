@@ -1,0 +1,98 @@
+.corressel__titulo {
+    color: var(--cor-texto-categorias);
+    background-color: var(--cor-de-fundo-do-header);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em;
+}
+
+.swiper {
+    margin: 0 0 .5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    padding: .5em 0;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    color: var(--cor-texto-categorias);
+    padding-right: 1.5em;
+}
+
+.descricao__titulo-livro {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor-h2-livro);
+    margin: .5em 0;
+    padding-right: 1.5em;
+}
+
+.descricao__texto {
+    font-size: 14px;
+    padding-right: 1.5em;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5em;
+    align-items: flex-start;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.card {
+    background: var(--cor-de-fundo-do-header);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.botoes__ancora {
+    background-color: var(--cor-botao-ancora);
+    padding: 1em 2.2em;
+    color: var( --cor-texto-botao-ancora);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--cor-texto-categorias-links);
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper-button-prev, .swiper-button-next {
+        display: inline-block;
+    }
+
+    .swiper-slide a img:hover {
+        transform: scale(1.1);
+    }
+    
+    .swiper-slide a img {
+        transition: transform 500ms;
+    }    
+}

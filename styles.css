@@ -1,0 +1,31 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+
+:root {
+    --fonte-principal: 'Poppins';
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-do-header: #FFFFFF;
+    --cor-texto-categorias: #EB9B00;
+    --cor-botao-ancora: #EB9B00;
+    --cor-texto-botao-ancora: #ffffff;
+    --cor-titulo-rodape: #000000;
+    --cor-fundo-rodape: #F9F9F9;
+    --cor-texto-categorias-links: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-fundo-banner: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-h2-livro: #002F52;
+    --texto-banner: #ffffff;
+    --cor-fundo-contato: #FFFFFF;
+    --cor-titulo-descricao-contato: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
