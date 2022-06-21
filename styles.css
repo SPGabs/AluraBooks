@@ -7,12 +7,14 @@
 
 :root {
     --fonte-principal: 'Poppins';
+    --fonte-titulo: 'Josefin Sans';
     --cor-de-fundo: #EBECEE;
     --cor-de-fundo-do-header: #FFFFFF;
     --cor-texto-categorias: #EB9B00;
     --cor-botao-ancora: #EB9B00;
     --cor-texto-botao-ancora: #ffffff;
     --cor-titulo-rodape: #000000;
+    --cor-titulo-e-categorias-1024: #000000;
     --cor-fundo-rodape: #F9F9F9;
     --cor-texto-categorias-links: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-fundo-banner: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
